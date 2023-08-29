@@ -25,4 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     });
+    document.addEventListener("keydown", (event) => {
+        if(event.keyCode === 69){
+            gridContainer.innerHTML = "";
+        }
+    });
+    
 });
